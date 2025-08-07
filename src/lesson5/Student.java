@@ -61,6 +61,7 @@ public class Student {
       this.year = year;
    }
 
+
    public void printInfo(){
       System.out.println("Name: " + name);
       System.out.println("Surname: " + surname);
@@ -68,5 +69,26 @@ public class Student {
       System.out.println("Mark: " + mark);
       System.out.println("Gender: " + gender);
       System.out.println("PHD:" + PHD);
+   }
+//                                                                      Constructor
+   public Student(){
+      System.out.println("student constructor");
+   }
+
+   public Student(String name){
+      this.name = name;
+   }
+   public Student(String name,int year){
+      this.name = name;
+      this.year = year;
+   }
+
+   public Student(char gender, double mark, String name, boolean PHD, String surname, int year) {
+      this.gender = gender;
+      this.mark = mark;
+      this.name = name;
+      this.PHD = PHD;
+      this.surname = surname;
+      this.year = year;
    }
 }

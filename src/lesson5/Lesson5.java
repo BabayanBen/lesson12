@@ -33,16 +33,20 @@ public class Lesson5 {
 //        System.out.println("--------------");
 //        service.YoungestGirl(new Student[] {s1,s2,s3,s4,s5}).printInfo();
 
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Enter first number");
+//        int x = scanner.nextInt();
+//        System.out.println("Enter secund number");
+//        int y = scanner.nextInt();
+//        System.out.println("Equal");
+//        System.out.println(x + y);
 
-        System.out.println("Enter first number");
-        int x = scanner.nextInt();
-        System.out.println("Enter secund number");
-        int y = scanner.nextInt();
-        System.out.println("Equal");
-        System.out.println(x + y);
+//                                                                                      Constructor
 
-
+        Student student = new Student();
+        Student student1 = new Student("Vigen");
+        Student student2 = new Student("Anna", 2001);
 
     }
 }
